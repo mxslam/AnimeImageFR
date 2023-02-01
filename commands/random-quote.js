@@ -18,11 +18,7 @@ formData.append('token', token);
 
 	
 }
-// async function hui() {
-// 	let myvalue = await GetImage()
-// 	.then(myvalue => console.log( myvalue));
 
-// }
 async function hui() {
 	let myvalue = await GetImage();
 	let image = new Image();

@@ -18,11 +18,7 @@ formData.append('token', token);
 
 	
 }
-// async function hui() {
-// 	let myvalue = await GetImage()
-// 	.then(myvalue => console.log( myvalue));
 
-// }
 async function hui() {
 	let myvalue = await GetImage();
 	let image = new Image();
@@ -42,6 +38,3 @@ module.exports = {
 		 return interaction.reply({files : [constructURL + file_d]});
 	},
 };
-
-
-// return interaction.reply({content : file_d, files : ["https://sitetest83.online/motor.php?get"]});
